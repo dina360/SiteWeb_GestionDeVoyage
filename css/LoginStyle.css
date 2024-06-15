@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"Poppins" , sans-serif;
+}
+body{
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	background: url(./offre/log8.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.envlopper{
+	width: 490px;
+	background: transparent;
+	border: 2.5px solid rgba(255,255, 255,.2);
+	backdrop-filter: blur(29px);
+	box-shadow: 0 0 12px  rgb(3, 49, 52);
+	color: #fff;
+	border-radius: 11px;
+	padding: 30px 40px ;
+}
+.envlopper h1{
+	font-size: 38px;
+	text-align: center;
+}
+.envlopper .saisir{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	margin: 30px 0;
+}
+.saisir input {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 3px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	font-size: 19px;
+	
+	color: #fff;
+	padding: 20px 45px 20px 20px;
+}
+.saisir input::placeholder {
+	color: #fff;
+}
+.saisir i {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 22px;
+}
+.envlopper .visible {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14.5px;
+	margin: -15px 0 15px;
+}
+
+.visible a {
+	color: #fff;
+	font-size: 17px;
+	  text-shadow: 2px 2px 5px rgb(0, 64, 64);
+	text-decoration: none;
+}
+.visible a:hover {
+	text-decoration: underline;
+}
+.envlopper .btn {
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+}
+.envlopper .enregistrer {
+	font-size: 14.5px;
+	text-align: center;
+	margin: 20px 0 15px;
+}
+.enregistrer p a {
+	color: #fff; 
+	text-decoration: none;
+	font-size: 16px;
+	 text-shadow: 2px 2px 5px rgb(0, 64, 64);
+}
+.enregistrer p  {
+	color: #fff; 
+	text-decoration: none;
+	font-size: 17px;
+	 text-shadow: 2px 2px 5px rgb(0, 64, 64);
+}
+.enregistrer p a:hover{
+	text-decoration: underline;
+}
+
+.envlopper .error-message{
+    color:red; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+    font-size: 16px;
+    
+}
+
+
+
+
+

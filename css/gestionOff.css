@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    height: 5%;
+}
+.navbar {
+    padding: 0.5rem 1rem; /* Ajustez les valeurs pour obtenir la hauteur désirée */
+    height: 60px; /* Fixez la hauteur de la navbar */
+    display: flex;
+    align-items: center;
+     background-color: rgb(206, 206, 206);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    width: 56px; /* Largeur de l'image du logo */
+    height: 56px; /* Hauteur de l'image du logo */
+}
+.navbar-brand img {
+    margin-right: 2px; /* Espace entre l'image et le texte */
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .nav-link i.material-icons {
+    margin-right: 5px;
+}
+
+.sidebar {
+	max-height: 500px;
+	min-height:1200px;
+    width: 200px;
+    position:absolute;
+    top: 59px;
+    left: 0;
+	height: auto;
+    background: #343a40;
+    color: #fff;
+    padding: 20px 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header img {
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.sidebar-user-info h5 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-family: 'Cabin', sans-serif;
+    color: transparent; /* Rendre le texte transparent */
+    -webkit-text-stroke: 1px #EEEEEE; /* Ajouter un contour de 1px de couleur #EEEEEE */
+}
+
+.sidebar-user-info span {
+    font-size: 0.875rem;
+    color: #adb5bd;
+}
+
+.sidebar ul.components {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul.components li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul.components li a {
+    color: #adb5bd;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.sidebar ul.components li a i.material-icons {
+    margin-right: 10px;
+}
+
+.sidebar ul.components li a:hover {
+    background: #495057;
+    color: #fff;
+}
+	
+.main-content {
+    margin-left: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: url(./image/back02.jpg) ;
+    background-size:cover;
+    background-position: center;
+    padding: 5px;
+    max-height: 500px;
+	min-height:1250px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .material-icons {
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.table .material-icons:hover {
+    color: #0056b3;
+    
+}
+.table {
+    width: 100%;
+    
+    
+    margin: auto; /* Pour centrer la table dans son conteneur */
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.modal-header .close {
+    margin: -1rem -1rem -1rem auto;
+}

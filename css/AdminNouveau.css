@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+	
+    font-family: 'Poppins', sans-serif;
+    background: url(./image/back02.jpg) ;
+    color: #333;
+     width: calc(110% - 78px);
+    margin: 0;
+   
+    height: 5%;
+}
+.navbar {
+    padding: 0.5rem 1rem; /* Ajustez les valeurs pour obtenir la hauteur désirée */
+    height: 60px; /* Fixez la hauteur de la navbar */
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 110%;
+    transition: all .5s ease;
+     background-color: rgb(206, 206, 206);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    margin-right: 2px; /* Espace entre l'image et le texte */
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+   
+}
+
+.navbar-nav .nav-link i.material-icons {
+    margin-right: -10px;
+}
+
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .material-icons {
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.table .material-icons:hover {
+    color: #0056b3;
+    
+}
+.table {
+    width: 101%;
+    
+    
+    margin: auto; /* Pour centrer la table dans son conteneur */
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.modal-header .close {
+    margin: -1rem -1rem -1rem auto;
+}

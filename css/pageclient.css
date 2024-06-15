@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Cabin:ital,wght@0,400..700;1,400..700&family=Candal&display=swap');
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    color: #333;
+    margin: 0;
+    height: 5%;
+}
+.navbar {
+    padding: 0.5rem 1rem; /* Ajustez les valeurs pour obtenir la hauteur désirée */
+    height: 60px; /* Fixez la hauteur de la navbar */
+    display: flex;
+    align-items: center;
+     background-color: rgb(206, 206, 206);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    width: 56px; /* Largeur de l'image du logo */
+    height: 56px; /* Hauteur de l'image du logo */
+}
+.navbar-brand img {
+    margin-right: 2px; /* Espace entre l'image et le texte */
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .nav-link i.material-icons {
+    margin-right: 5px;
+}
+
+.sidebar {
+	max-height: 500px;
+	min-height:950px;
+    width: 200px;
+    position:absolute;
+    top: 59px;
+    left: 0;
+	height: auto;
+    background:#5A6773;
+    color: #fff;
+    padding: 20px 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header img {
+    margin-bottom: -10px;
+    border-radius: 50%; /* Ajustez selon vos besoins */
+    width: 90px; /* Largeur de l'image du profil */
+    height: 90px; /* Hauteur de l'image du profil */
+}
+.sidebar-user-info h5 {
+    margin: 0;
+    font-family: "Candal", sans-serif;
+    font-size: 28px;
+    text-align: center;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px #1b2631;
+  font-style: normal ;
+    color:#CFDFEE; /* Rendre le texte transparent */
+    -webkit-text-stroke: 1px #4F5B67; /* Ajouter un contour de 1px de couleur #EEEEEE */
+}
+.sidebar-user-info {
+    text-align: center;
+}
+.sidebar-user-info span {	
+	
+	text-align: center;
+    font-size: 15.5px;
+    color: #D9D9D9;
+}
+
+.sidebar ul.components {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul.components li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul.components li a {
+	font-weight: bold;
+    color: #adb5bd;
+    display: flex;
+    align-items: center;
+    font-size:17px;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.sidebar ul.components li a i.material-icons {
+    margin-right: 10px;
+}
+
+.sidebar ul.components li a:hover {
+    background: #495057;
+    color: #fff;
+}
+	
+.main-content {
+    margin-left: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: url(./image/bluegris1.png) ;
+    background-size:cover;
+    background-position: center;
+    padding: 5px;
+    max-height: 500px;
+	min-height:950px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.modal-header .close {
+    margin: -1rem -1rem -1rem auto;
+}
+
+
